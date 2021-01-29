@@ -24,7 +24,7 @@ namespace MovieListLab10
                 movies.Add(new Movie("Cats", "Box Office Flop"));
             }
             string yesOrNo = "y";
-            while (yesOrNo == "y")
+            while (yesOrNo.Contains("y"))
             {
                 string genre = "";
                 while (true)
